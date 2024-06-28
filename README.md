@@ -1,13 +1,13 @@
 # AI audio summarizer
 
 ## 概要
-RSSフィードから音源を取得し、文字起こしと要約を行うプログラムです。
+RSSフィードから最新の音源を取得し、文字起こしと要約を行うプログラムです。
 
 ## 使い方
 ```bash
 python3 aitrans.py https://stand.fm/rss/639bbcf87655e00c1c1430b2
 ```
-stand.fmのRSSフィードから音源を取得し、文字起こしと要約を行います。
+stand.fmのRSSフィードから最新の音源を取得し、文字起こしと要約を行います。
 
 ```bash
 python3 aitrans.py 20240628_PerplexityはPRO有料にしなさい565.m4a --audio
