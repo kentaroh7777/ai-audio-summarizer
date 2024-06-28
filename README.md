@@ -31,6 +31,8 @@ RSSフィードから音源を取得し、ファイルに保存します。ワ�
 
 ## セットアップ
 
+### 環境設定
+
 このプログラムを実行するためには、`openai`および`anthropic`モジュールをインストールする必要があります。以下のコマンドを使用してインストールしてください。
 
 ```bash
@@ -47,3 +49,7 @@ OpenAI（文字起こし）およびAnthropic（要約）のAPIを利用して�
 export OPENAI_API_KEY="your_openai_api_key"
 export ANTHROPIC_API_KEY="your_anthropic_api_key"
 ```
+
+### 要約のプロンプト
+
+prompt-summarize.txt に文字起こしから要約のためのプロンプトを設定してください。初期状態にサンプルが入っていますので、自由に変更して利用してください。
