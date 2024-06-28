@@ -7,22 +7,21 @@ RSSフィードから音源を取得し、文字起こしと要約を行うプ�
 ```CLI
 python3 aitrans.py https://stand.fm/rss/639bbcf87655e00c1c1430b2
 ```
-
 stand.fmのRSSフィードから音源を取得し、文字起こしと要約を行います。
 
 ```CLI
 python3 aitrans.py 20240628_PerplexityはPRO有料にしなさい565.m4a --audio
-
+```
 音源ファイルから、文字起こしと要約を行います。
 
 ```CLI
 python3 aitrans.py 20240628_PerplexityはPRO有料にしなさい565_trans.txt --text
-
+```
 テキストファイルから、要約を行います。
 
 ```CLI
 python3 aitrans.py https://stand.fm/rss/639bbcf87655e00c1c1430b2 --stepbystep
-
+```
 RSSフィードから音源を取得し、ファイルに保存します。ワンステップのみ実行します。
 
 ## オプション
@@ -36,9 +35,8 @@ RSSフィードから音源を取得し、ファイルに保存します。ワ�
 
 ```CLI
 pip install openai
-
-```CLI
 pip install anthropic
+```
 
 その他足りないモジュールは同様にインストールしてください。
 グローバル環境にインストールできない場合は、別途pythonの仮想環境を作成し、その上でインストールしてご利用下さい。
