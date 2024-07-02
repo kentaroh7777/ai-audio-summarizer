@@ -1,0 +1,11 @@
+# OpenAIのAPIキー
+OPENAI_API_KEY      ="your-openai-api-key"
+
+# AnthropicのAPIキー
+ANTHROPIC_API_KEY   ="your-anthropic-api-key"
+
+# デフォルトの音声ファイルを取得するRSSフィードのURL
+DEFAULT_RSS_URL     ="your-default-rss-url"
+
+# 要約のプロンプト
+PROMPT_SUMMARIZE    ="あなたはライティングのプロです。以下のテキストは林FPの音声を文字起こしした原稿です。この原稿を要約してください。"
